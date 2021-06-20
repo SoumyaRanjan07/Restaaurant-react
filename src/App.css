@@ -3,16 +3,19 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 10vmin;
+  pointer-events:painted;
 }
-
+p{
+font-size: 18px;
+color:deepskyblue;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
-
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +26,42 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card-menu
+  {
+    margin-top: 70px;
+  }
+  .create-menu
+  {
+    margin: 140px;
+    width: 2000px;
+    height: 800px;
+  }
+   
+span{
+  background-color:burlywood;
+  padding: 5px;
+  display:inline-block;
+  margin:19px;
+  color:midnightblue;
 }
-
+.list-wrapper
+{
+ 
+width: 1510px;
+margin: auto;
+}
+.Nav-Link
+{
+  padding-left: 90px;
+} 
+  
+.App-link {
+  color:whitesmoke;
+}
+.mr-auto
+{
+     font-size:20px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

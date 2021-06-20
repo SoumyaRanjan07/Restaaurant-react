@@ -1,0 +1,91 @@
+{
+   "Login":[
+     {
+      " username":"soumya",
+      "password":"soumya1123"
+     },
+     {
+      " username":"unknown",
+      "password":"unknown1234"
+     }
+   ],
+  "Restaurant": [
+    {
+      "name": " Dominos Restaurant",
+      "address": "Bhubaneswar",
+      "rating": "4.9",
+      "email": "dominosbbsr@gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": " Redhot Restaurant",
+      "address": "Delhi",
+      "rating": "4.0",
+      "email": "Redhot@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": " Limca Restaurant",
+      "address": "Mumbai",
+      "rating": "4.5",
+      "email": "Limca@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": " KFC Restaurant",
+      "address": "Pune",
+      "rating": "3.5",
+      "email": "KFC@gmail.com"
+    },
+    {
+      "name": " Darbar Restaurant",
+      "address": "Bangalore",
+      "rating": "4.9",
+      "email": "Darbar@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "GreenChilies",
+      "address": "Ludhiana",
+      "rating": "3.8",
+      "email": "green@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "zomato",
+      "address": "Udaipur",
+      "rating": "4.6",
+      "email": "zomato@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Nava Restaurant",
+      "address": "Madhya Pradesh",
+      "rating": "4.7",
+      "email": "Nava@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Wefe Restaurant",
+      "address": "Nagpur",
+      "rating": "5.0",
+      "email": "wefe@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "kcc Restaurant",
+      "address": "PUNE",
+      "rating": "3.7",
+      "email": "kcc@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Bold Restaurant",
+      "address": "Mumbai",
+      "rating": "3.9",
+      "email": "Bold@gmail.com",
+      "id": 11
+    }
+  ]
+}
