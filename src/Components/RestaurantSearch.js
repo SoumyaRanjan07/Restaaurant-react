@@ -18,7 +18,7 @@ class RestaurantSearch extends Component {
     search(key)
     {
        
-        fetch("http://localhost:3000/Restaurant?q="+key).then((data) => {
+        fetch("http://localhost:3001/Restaurant?q="+key).then((data) => {
             data.json().then((result) => {
                 console.warn("result",result);
                 if(result.length>0)
@@ -37,8 +37,6 @@ class RestaurantSearch extends Component {
     }
 
     render() {
-      
-       
         return (
            
             <Container>

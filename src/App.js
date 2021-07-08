@@ -14,7 +14,7 @@ import Protected from './Components/Protected';
 import Login from './Components/Login'; 
 import Logout from './Components/Logout'
 import React, {  } from 'react';
- 
+
 // import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faHome, faList, faPlus, faSearch, faDatabase, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -30,7 +30,7 @@ function App() {
           <br />
 
           <Route path='/home'><Home /></Route>
-          <Route path='/list'><RestauranstList /></Route>
+          {/* <Route path='/list'><RestauranstList /></Route>
           <Route path='/create'><RestaurantCreate /></Route>
           <Route  path='/detail'><RestaurantDetail /></Route>
           <Route path='/search'><RestaurantSearch /></Route>
@@ -39,9 +39,9 @@ function App() {
             render={props => (
               <RestaurantUpdate {...props} />
             )}
-          >
+          > 
      
-          </Route>
+          </Route>*/}
           
            <Route path='/login'
             render={props => (
@@ -49,13 +49,13 @@ function App() {
             )}
           >
           </Route> 
-            <Protected exact path='/' component={Home}/> 
+            
             <Protected exact path='/list' component={RestauranstList}/> 
             <Protected exact path='/create' component={RestaurantCreate}/> 
             <Protected exact path='/detail' component={RestaurantDetail}/> 
             <Protected exact path='/search' component={RestaurantSearch}/> 
             <Protected exact path='/update/:id' component={RestaurantUpdate}/> 
-
+            <Route path='/logout'><Logout/></Route>
         </Router>
       </header>
 

@@ -1,3 +1,4 @@
+  
 import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
@@ -13,7 +14,7 @@ class RestauranstList extends Component {
         }
     }
     componentDidMount() {
-        fetch("http://localhost:3000/Restaurant").then((response) => {
+        fetch("http://localhost:3001/Restaurant").then((response) => {
             response.json().then((result) => {
                 this.setState({ list: result })
             })
@@ -21,7 +22,7 @@ class RestauranstList extends Component {
     }
     delete(id)
     {
-        fetch("http://localhost:3000/Restaurant/"+ id, {
+        fetch("http://localhost:3001/Restaurant/"+ id, {
             method: "DELETE",
         }).then((result) => {
             result.json().then((resp)=>

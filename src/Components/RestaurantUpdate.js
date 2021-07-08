@@ -13,7 +13,7 @@ class RestaurantMake extends Component {
     }
     componentDidMount()
     {
-        fetch("http://localhost:3000/Restaurant/"+this.props.match.params.id).then((response) => {
+        fetch("http://localhost:3001/Restaurant/"+this.props.match.params.id).then((response) => {
             response.json().then((result) => {
                 console.warn(result);
                 this.setState({ 
@@ -29,7 +29,7 @@ class RestaurantMake extends Component {
 
 update()
 {
-    fetch("http://localhost:3000/Restaurant/"+this.state.id, {
+    fetch("http://localhost:3001/Restaurant/"+this.state.id, {
         method: "PUT",
         headers:{
             'Content-Type':'application/json'

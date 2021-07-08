@@ -1,14 +1,14 @@
 {
-   "Login":[
-     {
-      " username":"soumya",
-      "password":"soumya1123"
-     },
-     {
-      " username":"unknown",
-      "password":"unknown1234"
-     }
-   ],
+  "Login": [
+    {
+      " username": "soumya",
+      "password": "soumya1123"
+    },
+    {
+      " username": "unknown",
+      "password": "unknown1234"
+    }
+  ],
   "Restaurant": [
     {
       "name": " Dominos Restaurant",
@@ -79,13 +79,6 @@
       "rating": "3.7",
       "email": "kcc@gmail.com",
       "id": 10
-    },
-    {
-      "name": "Bold Restaurant",
-      "address": "Mumbai",
-      "rating": "3.9",
-      "email": "Bold@gmail.com",
-      "id": 11
     }
   ]
 }
